@@ -1,1 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
 
+metadata:
+  name: cyberminions-deployment
+
+spec:
+  replicas: 2
+
+  selector:
+    matchLabels:
+      app: cyberminions
+
+  template:
+    metadata:
+      labels:
+        app: cyberminions
+
+    spec:
+      containers:
+      - name: cyberminions
+
+        image: zaidpathan31/cyberminions:v1
+
+        imagePullPolicy: Always
+
+        ports:
+        - containerPort: 80
