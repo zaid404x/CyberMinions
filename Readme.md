@@ -9,7 +9,6 @@
 ![Docker](https://img.shields.io/badge/Docker-Containerization-blue?logo=docker)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestration-326CE5?logo=kubernetes)
 ![SonarQube](https://img.shields.io/badge/SonarQube-Code%20Quality-4E9BCD?logo=sonarqube)
-![OWASP](https://img.shields.io/badge/OWASP-Dependency%20Check-green)
 ![Trivy](https://img.shields.io/badge/Trivy-Security%20Scanning-blue)
 ![Prometheus](https://img.shields.io/badge/Prometheus-Monitoring-orange?logo=prometheus)
 ![Grafana](https://img.shields.io/badge/Grafana-Visualization-F46800?logo=grafana)
