@@ -76,9 +76,10 @@ Code Analysis      Vulnerability Scan
             │
             ▼
        Monitoring
-<img width="1536" height="1024" alt="WhatsApp Image 2026-06-23 at 12 16 39 PM" src="https://github.com/user-attachments/assets/3dc67a9a-53bc-46fe-846d-870a19e81ba4" />
+
 
 ```
+![Uploading WhatsApp Image 2026-06-23 at 12.16.39 PM.jpeg…]()
 
 ---
 
