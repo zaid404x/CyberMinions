@@ -17,7 +17,7 @@
 
 ---
 
-> 🔐 **CyberMinions** is a cloud-native DevSecOps project that demonstrates a complete secure software delivery lifecycle using Jenkins, SonarQube, OWASP Dependency Check, Trivy, Docker, Kubernetes, Prometheus, and Grafana.
+> 🔐 **CyberMinions** is a cloud-native DevSecOps project that demonstrates a complete secure software delivery lifecycle using Jenkins, SonarQube, Trivy, Docker, Kubernetes, Prometheus, and Grafana.
 
 The project showcases how modern organizations can automate code quality checks, security scanning, containerization, deployment, and monitoring using industry-standard DevSecOps practices.
 
