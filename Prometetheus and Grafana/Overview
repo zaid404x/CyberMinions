@@ -4,15 +4,18 @@ This project demonstrates the implementation of a centralized monitoring solutio
 
 The monitoring stack collects infrastructure metrics from multiple Ubuntu virtual machines and visualizes them through Grafana dashboards.
 
-Infrastructure
+INFRASTRUCTURE
+
 Monitoring Server
 Ubuntu 22.04
 Prometheus
 Grafana
+
 Kubernetes Server
 Ubuntu 22.04
 Kubernetes Cluster
 Node Exporter
+
 Jenkins Server
 Ubuntu 22.04
 Jenkins
@@ -20,11 +23,24 @@ Node Exporter
 Architecture
 
 Prometheus scrapes metrics from Node Exporters running on each VM.
-
 Grafana connects to Prometheus as a data source and visualizes:
-
 CPU Usage
 Memory Usage
 Disk Usage
 Network Traffic
 Load Average
+
+TECHNOLOGIES USED
+Prometheus
+Grafana
+Node Exporter
+Kubernetes
+Jenkins
+Monitoring Components
+Node Exporter
+
+Provides host-level metrics including CPU, RAM, Disk and Network statistics.
+Prometheus
+Collects and stores metrics from monitored systems.
+Grafana
+Provides visualization and dashboarding capabilities.
