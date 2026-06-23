@@ -1,5 +1,7 @@
+<img width="500" height="500" alt="ChatGPT_Image_Jun_23__2026__03_58_00_PM-removebg-preview (1)" src="https://github.com/user-attachments/assets/f6eeb307-7783-404d-9613-30fa7b178351" />
+
 # 🛡️ CyberMinions
-1
+
 ### 🚀 Cloud-Native DevSecOps Security Monitoring Dashboard
 
 ![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)
@@ -74,6 +76,8 @@ Code Analysis      Vulnerability Scan
             │
             ▼
        Monitoring
+<img width="1536" height="1024" alt="WhatsApp Image 2026-06-23 at 12 16 39 PM" src="https://github.com/user-attachments/assets/3dc67a9a-53bc-46fe-846d-870a19e81ba4" />
+
 ```
 
 ---
@@ -137,33 +141,11 @@ Code Analysis      Vulnerability Scan
 
 ## Cloud Platform
 
-- AWS EC2
+- VCD
 
 ---
 
-# 📂 Project Structure
 
-```text
-CyberMinions/
-│
-├── app/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-│
-├── docker/
-│   └── Dockerfile
-│
-├── jenkins/
-│   └── Jenkinsfile
-│
-├── kubernetes/
-│   ├── deployment.yaml
-│   └── service.yaml
-│
-├── screenshots/
-│
-└── README.md
 ```
 
 ---
@@ -287,6 +269,7 @@ Responsible for:
 - Performance Analytics
 
 ---
+<img width="1536" height="1024" alt="WhatsApp Image 2026-06-23 at 4 43 09 PM" src="https://github.com/user-attachments/assets/ae363fff-13a6-4239-916c-95754494be3f" />
 
 # 🔒 Security Controls Implemented
 
