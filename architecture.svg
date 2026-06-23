@@ -1,0 +1,128 @@
+<svg width="1400" height="900" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style>
+            .box {
+                fill: #ffffff;
+                stroke: #2d3748;
+                stroke-width: 2;
+                rx: 10;
+                ry: 10;
+            }
+            .cluster {
+                fill: #f7fafc;
+                stroke: #3182ce;
+                stroke-width: 3;
+                rx: 15;
+                ry: 15;
+            }
+            .title {
+                font-family: Arial, sans-serif;
+                font-size: 16px;
+                font-weight: bold;
+                text-anchor: middle;
+            }
+            .text {
+                font-family: Arial, sans-serif;
+                font-size: 13px;
+                text-anchor: middle;
+            }
+            .arrow {
+                stroke: #4a5568;
+                stroke-width: 2;
+                fill: none;
+                marker-end: url(#arrowhead);
+            }
+        </style>
+
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#4a5568"></polygon>
+        </marker>
+    </defs>
+
+    <!-- Title -->
+    <text x="700" y="40" font-size="26" font-family="Arial" font-weight="bold" text-anchor="middle">
+        CyberMinions DevSecOps Kubernetes Architecture
+    </text>
+
+    <!-- Developer -->
+    <rect class="box" x="580" y="70" width="240" height="60"></rect>
+    <text class="title" x="700" y="105">👨‍💻 Developer</text>
+
+    <!-- GitHub -->
+    <rect class="box" x="580" y="180" width="240" height="70"></rect>
+    <text class="title" x="700" y="210">GitHub Repository</text>
+    <text class="text" x="700" y="232">Source Code Management</text>
+
+    <!-- Jenkins -->
+    <rect class="box" x="580" y="300" width="240" height="90"></rect>
+    <text class="title" x="700" y="330">Jenkins CI/CD</text>
+    <text class="text" x="700" y="355">Build → Test → Push</text>
+    <text class="text" x="700" y="375">Deploy Pipeline</text>
+
+    <!-- DockerHub -->
+    <rect class="box" x="580" y="440" width="240" height="80"></rect>
+    <text class="title" x="700" y="475">Docker Hub</text>
+    <text class="text" x="700" y="498">cyberminions:v1</text>
+
+    <!-- Kubernetes Cluster -->
+    <rect class="cluster" x="180" y="580" width="1040" height="260"></rect>
+
+    <text x="700" y="610" font-size="22" font-family="Arial" font-weight="bold" text-anchor="middle">
+          Kubernetes Cluster (v1.31)
+    </text>
+
+    <!-- Master -->
+    <rect class="box" x="250" y="650" width="260" height="130"></rect>
+    <text class="title" x="380" y="680">k8-master</text>
+    <text class="text" x="380" y="710">API Server</text>
+    <text class="text" x="380" y="730">Scheduler</text>
+    <text class="text" x="380" y="750">Controller Manager</text>
+    <text class="text" x="380" y="770">etcd</text>
+
+    <!-- Service -->
+    <rect class="box" x="570" y="670" width="260" height="90"></rect>
+    <text class="title" x="700" y="700">NodePort Service</text>
+    <text class="text" x="700" y="725">cyberminions-service</text>
+    <text class="text" x="700" y="745">Port 30080</text>
+
+    <!-- Worker -->
+    <rect class="box" x="900" y="640" width="260" height="150"></rect>
+    <text class="title" x="1030" y="670">k8-worker</text>
+
+    <rect x="930" y="700" width="80" height="50" fill="#bee3f8" stroke="#3182ce"></rect>
+
+    <rect x="1050" y="700" width="80" height="50" fill="#bee3f8" stroke="#3182ce"></rect>
+
+    <text class="text" x="970" y="730">Pod 1</text>
+    <text class="text" x="1090" y="730">Pod 2</text>
+
+    <!-- VCD Gateway -->
+    <rect class="box" x="1080" y="430" width="250" height="80"></rect>
+    <text class="title" x="1205" y="465">VCD Edge Gateway</text>
+    <text class="text" x="1205" y="490">NAT + Firewall</text>
+
+    <!-- Public Users -->
+    <rect class="box" x="1080" y="280" width="250" height="80"></rect>
+    <text class="title" x="1205" y="315">🌍 Users</text>
+    <text class="text" x="1205" y="340">49.50.92.76</text>
+
+    <!-- Arrows -->
+    <line class="arrow" x1="700" y1="130" x2="700" y2="180"></line>
+    <line class="arrow" x1="700" y1="250" x2="700" y2="300"></line>
+    <line class="arrow" x1="700" y1="390" x2="700" y2="440"></line>
+    <line class="arrow" x1="700" y1="520" x2="700" y2="580"></line>
+
+    <line class="arrow" x1="1205" y1="360" x2="1205" y2="430"></line>
+    <line class="arrow" x1="1205" y1="510" x2="1030" y2="640"></line>
+
+    <line class="arrow" x1="510" y1="715" x2="570" y2="715"></line>
+    <line class="arrow" x1="830" y1="715" x2="900" y2="715"></line>
+
+    <!-- Flannel -->
+    <line x1="510" y1="810" x2="900" y2="810" stroke="#38a169" stroke-width="4" stroke-dasharray="10 5"></line>
+
+    <text x="705" y="800" font-size="14" font-family="Arial" fill="#38a169" text-anchor="middle">
+          Flannel VXLAN Network
+    </text>
+
+</svg>
