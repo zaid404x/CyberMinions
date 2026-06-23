@@ -3,79 +3,256 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CyberMinions</title>
+    <title>CyberMinions DevSecOps CI/CD Project</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <nav>
-        <div class="logo">🛡️ CyberMinions</div>
-        <ul>
-            <li><a href="#">Home1</a></li>
-            <li><a href="#">Threats2</a></li>
-            <li><a href="#">Monitoring</a></li>
-            <li><a href="#">About</a></li>
-        </ul>
-    </nav>
+    <!-- Navbar -->
+
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                DevSecOps Pipeline
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="architecture.html">Architecture</a></li>
+                <li><a href="pipeline.html">Pipeline</a></li>
+                <li><a href="monitoring.html">Monitoring</a></li>
+                <li><a href="documentation.html">Documentation</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
 
     <section class="hero">
-        <h1>CyberMinions Security Dashboard</h1>
-        <p>Cloud-Native DevSecOps Monitoring Platform</p>
-        <button>Explore Dashboard</button>
+
+        <div class="hero-content">
+
+            <h1>
+                End-to-End DevSecOps CI/CD Pipeline
+            </h1>
+
+            <p>
+                Automated application delivery using GitHub,
+                Jenkins, SonarQube, Trivy, Docker,
+                Kubernetes, Prometheus and Grafana.
+            </p>
+
+            <a href="architecture.html" class="btn">
+                Explore Architecture
+            </a>
+
+        </div>
+
     </section>
 
-    <section class="stats">
-        <div class="card">
-            <h2 id="threats">0</h2>
-            <p>Threats Blocked</p>
-        </div>
+    <!-- About Project -->
 
-        <div class="card">
-            <h2 id="alerts">0</h2>
-            <p>Active Alerts</p>
-        </div>
+    <section class="about">
 
-        <div class="card">
-            <h2>49.9%</h2>
-            <p>System Uptime</p>
-        </div>
+        <h2>Project Overview</h2>
 
-        <div class="card">
-            <h2>24/7</h2>
-            <p>Monitoring</p>
-        </div>
+        <p>
+            This project demonstrates a complete DevSecOps workflow
+            from source code commit to automated deployment on a
+            Kubernetes cluster.
+
+            The pipeline integrates security scanning,
+            code quality analysis, containerization,
+            automated deployments and infrastructure monitoring.
+        </p>
+
     </section>
+
+    <!-- Technology Stack -->
+
+    <section class="tech-stack">
+
+        <h2>Technology Stack</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>GitHub</h3>
+                <p>Source Code Management</p>
+            </div>
+
+            <div class="card">
+                <h3>Jenkins</h3>
+                <p>CI/CD Automation</p>
+            </div>
+
+            <div class="card">
+                <h3>SonarQube</h3>
+                <p>Static Code Analysis</p>
+            </div>
+
+            <div class="card">
+                <h3>Trivy</h3>
+                <p>Security Scanning</p>
+            </div>
+
+            <div class="card">
+                <h3>Docker</h3>
+                <p>Containerization</p>
+            </div>
+
+            <div class="card">
+                <h3>Docker Hub</h3>
+                <p>Image Registry</p>
+            </div>
+
+            <div class="card">
+                <h3>Kubernetes</h3>
+                <p>Container Orchestration</p>
+            </div>
+
+            <div class="card">
+                <h3>Prometheus</h3>
+                <p>Monitoring</p>
+            </div>
+
+            <div class="card">
+                <h3>Grafana</h3>
+                <p>Visualization</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Workflow -->
+
+    <section class="workflow">
+
+        <h2>CI/CD Workflow</h2>
+
+        <div class="workflow-container">
+
+            <div class="step">Developer Push</div>
+            <div class="arrow">→</div>
+
+            <div class="step">GitHub</div>
+            <div class="arrow">→</div>
+
+            <div class="step">Webhook</div>
+            <div class="arrow">→</div>
+
+            <div class="step">Jenkins</div>
+            <div class="arrow">→</div>
+
+            <div class="step">SonarQube</div>
+            <div class="arrow">→</div>
+
+            <div class="step">Trivy</div>
+            <div class="arrow">→</div>
+
+            <div class="step">Docker</div>
+            <div class="arrow">→</div>
+
+            <div class="step">Docker Hub</div>
+            <div class="arrow">→</div>
+
+            <div class="step">Kubernetes</div>
+            <div class="arrow">→</div>
+
+            <div class="step">Users</div>
+
+        </div>
+
+    </section>
+
+    <!-- Features -->
 
     <section class="features">
-        <h2>Security Features</h2>
 
-        <div class="feature-grid">
-            <div class="feature-card">
-                <h3>🔒 Threat Detection</h3>
-                <p>Identify malicious activities in real-time.</p>
+        <h2>Key Features</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Automated CI/CD</h3>
+                <p>End-to-end deployment automation.</p>
             </div>
 
-            <div class="feature-card">
-                <h3>☁️ Cloud Security</h3>
-                <p>Protect workloads across cloud environments.</p>
+            <div class="card">
+                <h3>Security Integration</h3>
+                <p>Filesystem and container image scanning.</p>
             </div>
 
-            <div class="feature-card">
-                <h3>📊 Monitoring</h3>
-                <p>Track infrastructure and application health.</p>
+            <div class="card">
+                <h3>Scalable Deployment</h3>
+                <p>Kubernetes-based deployment strategy.</p>
             </div>
 
-            <div class="feature-card">
-                <h3>⚡ Incident Response</h3>
-                <p>Respond rapidly to security incidents.</p>
+            <div class="card">
+                <h3>Observability</h3>
+                <p>Real-time monitoring using Prometheus and Grafana.</p>
             </div>
+
         </div>
+
     </section>
 
+    <!-- Statistics -->
+
+    <section class="stats">
+
+        <h2>Project Components</h2>
+
+        <div class="stats-container">
+
+            <div class="stat-box">
+                <h3>9+</h3>
+                <p>Technologies</p>
+            </div>
+
+            <div class="stat-box">
+                <h3>8</h3>
+                <p>Pipeline Stages</p>
+            </div>
+
+            <div class="stat-box">
+                <h3>2</h3>
+                <p>Kubernetes Nodes</p>
+            </div>
+
+            <div class="stat-box">
+                <h3>100%</h3>
+                <p>Automation</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
     <footer>
-        <p>© 2026 CyberMinions | DevSecOps Security Dashboard</p>
+
+        <h3>DevSecOps CI/CD Project</h3>
+
+        <p>
+            GitHub • Jenkins • SonarQube • Trivy • Docker • Kubernetes • Prometheus • Grafana
+        </p>
+
+        <p>
+            Designed & Developed by Zaid Pathan
+        </p>
+
     </footer>
 
     <script src="script.js"></script>
+
 </body>
 </html>
